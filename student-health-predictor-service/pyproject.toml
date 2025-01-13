@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "student-health-predictor-service"
+version = "1.0.0"
+description = ""
+authors = ["Kira Mishima <kiramishima@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyarrow = "^18.1.0"
+polars = "^1.18.0"
+scikit-learn = "^1.6.0"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+flask = "^3.1.0"
+gunicorn = "^23.0.0"
+altair = {extras = ["all"], version = "^5.5.0"}
+tqdm = "^4.67.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
