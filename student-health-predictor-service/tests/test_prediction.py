@@ -1,8 +1,8 @@
 from pathlib import Path
 import json
 import os
-from 
-from student-health-predictor-service.app import predict_single
+from ..app import predict_single
+# from student-health-predictor-service.app import predict_single
 import logging
 import pickle as pkl
 
